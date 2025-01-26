@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="C:\Users\shrey\OneDrive\Desktop\Codesoft\Music Player\P.css">
+    <script src="https://kit.fontawesome.com/c825dfd988.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="player">
+    <nav>
+        <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    
+    <img src="media/img1.jpg" class="song-img" id="song-img">
+
+    <h2 id="music-name">Song Title</h2>
+    <p id="music-info">Artist - Album</p>
+
+    <audio id="song" controls>
+        <source id="audio-source" src="audio/mpeg1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="controls">
+        <div><i class="fa-solid fa-backward" id="prev" ></i></div>
+        <div><i class="fa-solid fa-play" id="play" ></i></div>
+        <div><i class="fa-solid fa-forward" id="next" ></i></div>
+    </div>
+    
+</div>
+</body>
+<script src="C:\Users\shrey\OneDrive\Desktop\Codesoft\Music Player\P.js"></script>
+</html>
